@@ -118,9 +118,20 @@
 // primeNumber(17);
 
 
-// 9.12. Find the First Character of a String
-function character(str){
-    return str[2]
+// 9. Find the First Character of a String
+// function character(str){
+//     return str[2]
+// }
+
+// console.log(character("HELLO"));
+
+// 10. Create a Person Object
+
+let Person = {
+    name : "Shahariar",
+    age : 19,
+    institute : "RPI",
+    attachment : "BD calling it "
 }
 
-console.log(character("HEllo"))
+console.log(Person.age, Person.name, Person.institute);
