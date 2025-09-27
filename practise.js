@@ -138,12 +138,37 @@
 
 
 // 11. Find the Square of a Number
-function square (num){
-     sqr =  num * num;
-     console.log(sqr)
+// function square (num){
+//      sqr =  num * num;
+//      console.log(sqr)
+// }
+
+// square(12);
+// square(25);
+// square(30);
+
+// 12. Reverse the Order of Words in a String
+
+// function reverse(str){
+//     return str 
+//      .split(" ")
+//      .reverse() 
+// }
+
+// console.log(reverse("I love coding"));
+
+// 13. Find the Average of an Array of Numbers
+
+function averageOfArray(arr){
+        let sum = 0;
+
+    for (let i = 0; i < arr.length; i++) {
+        sum += arr[i];
+    }
+
+    return sum ;
 }
 
-square(12);
-square(25);
-square(30);
+console.log(averageOfArray([12, 13, 14, 15, 16, 17]));
+
 
