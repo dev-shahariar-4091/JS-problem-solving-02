@@ -80,15 +80,22 @@
 // leepYear(2025);
 
 // 6. Check if a Number is Divisible by 5 and 10 
-function divitited (num){
-    if( num % 5 == 0 && num % 10 == 0){
-        console.log("This number is divitite by both 5 & 10 : ", num);
-    }
-    else{
-        console.log("This number is not divitited by both 5 & 10 : ",num);
-    }
+// function divitited (num){
+//     if( num % 5 == 0 && num % 10 == 0){
+//         console.log("This number is divitite by both 5 & 10 : ", num);
+//     }
+//     else{
+//         console.log("This number is not divitited by both 5 & 10 : ",num);
+//     }
+// }
+// divitited(100);
+// divitited(205);
+
+// 7. Find the Length of a String
+function lengthOfStr(str){
+    return str.length
 }
-divitited(100);
-divitited(205);
+console.log(lengthOfStr("Bangladesh"));
+console.log(lengthOfStr("Shahariar"))
 
 
