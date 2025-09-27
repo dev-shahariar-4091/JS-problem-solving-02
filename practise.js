@@ -159,16 +159,44 @@
 
 // 13. Find the Average of an Array of Numbers
 
-function averageOfArray(arr){
-        let sum = 0;
+// function averageOfArray(arr){
+//         let sum = 0;
 
-    for (let i = 0; i < arr.length; i++) {
-        sum += arr[i];
-    }
+//     for (let i = 0; i < arr.length; i++) {
+//         sum += arr[i];
+//     }
 
-    return sum ;
+//     return sum ;
+// }
+
+// console.log(averageOfArray([12, 13, 14, 15, 16, 17]));
+
+
+// 14. Convert a String to Uppercase
+
+// function toUpperCaseString(str) {
+//     return str.toUpperCase();
+// }
+
+// console.log(toUpperCaseString("I want to study"));
+
+// 15.. Create an Object with a Method
+
+// const triangle = {
+//     arae : function(height, width){
+//         return height * width;
+//     }
+// }
+
+// console.log(triangle.arae(20, 40 ));
+
+
+// 15.Check if a String Contains a Specific Word
+
+function containsJavaScript(str) {
+    return str.includes("JavaScript"); 
 }
 
-console.log(averageOfArray([12, 13, 14, 15, 16, 17]));
-
+console.log(containsJavaScript("I love my contry"));
+console.log(containsJavaScript("I love my JavaScript"));
 
