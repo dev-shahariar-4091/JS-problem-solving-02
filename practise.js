@@ -51,16 +51,30 @@
 // largestNum(40, 510, 555);
 
 
-// 4. Check if a Person is an Adult 
-function adult (age){
-    if(age > 18 ){
-      console.log("You can voted : " , age);
-  }
-  else{
-      console.log("You can't voted : ", age)
-  }
+// 4. Check if a Person is an Adult  (complete)
+// function adult (age){
+//     if(age > 18 ){
+//       console.log("You can voted : " , age);
+//   }
+//   else{
+//       console.log("You can't voted : ", age)
+//   }
+// }
+
+// adult(18);
+// adult(16);
+// adult(25);
+
+
+// 5. Check if a Year is a Leap Year 
+function leepYear(year){
+ if(year % 4 == 0){
+       console.log("This year is leep year : " , year);
+   }
+  else {
+       console.log("This year is not leep year : ", year);
+ }
 }
 
-adult(18);
-adult(16);
-adult(25);
+leepYear(2000);
+leepYear(2025);
