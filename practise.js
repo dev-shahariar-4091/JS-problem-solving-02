@@ -127,11 +127,23 @@
 
 // 10. Create a Person Object
 
-let Person = {
-    name : "Shahariar",
-    age : 19,
-    institute : "RPI",
-    attachment : "BD calling it "
+// let Person = {
+//     name : "Shahariar",
+//     age : 19,
+//     institute : "RPI",
+//     attachment : "BD calling it "
+// }
+
+// console.log(Person.age, Person.name, Person.institute);
+
+
+// 11. Find the Square of a Number
+function square (num){
+     sqr =  num * num;
+     console.log(sqr)
 }
 
-console.log(Person.age, Person.name, Person.institute);
+square(12);
+square(25);
+square(30);
+
