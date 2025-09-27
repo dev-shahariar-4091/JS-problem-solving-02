@@ -66,15 +66,29 @@
 // adult(25);
 
 
-// 5. Check if a Year is a Leap Year 
-function leepYear(year){
- if(year % 4 == 0){
-       console.log("This year is leep year : " , year);
-   }
-  else {
-       console.log("This year is not leep year : ", year);
- }
-}
+// 5. Check if a Year is a Leap Year (complete)
+// function leepYear(year){
+//  if(year % 4 == 0){
+//        console.log("This year is leep year : " , year);
+//    }
+//   else {
+//        console.log("This year is not leep year : ", year);
+//  }
+// }
 
-leepYear(2000);
-leepYear(2025);
+// leepYear(2000);
+// leepYear(2025);
+
+// 6. Check if a Number is Divisible by 5 and 10 
+function divitited (num){
+    if( num % 5 == 0 && num % 10 == 0){
+        console.log("This number is divitite by both 5 & 10 : ", num);
+    }
+    else{
+        console.log("This number is not divitited by both 5 & 10 : ",num);
+    }
+}
+divitited(100);
+divitited(205);
+
+
