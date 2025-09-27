@@ -91,11 +91,28 @@
 // divitited(100);
 // divitited(205);
 
-// 7. Find the Length of a String
-function lengthOfStr(str){
-    return str.length
+// 7. Find the Length of a String 
+// function lengthOfStr(str){
+//     return str.length
+// }
+// console.log(lengthOfStr("Bangladesh"));
+// console.log(lengthOfStr("Shahariar"));
+
+
+// 8. Check if a Number is Prime 
+
+function primeNumber(num){
+   
+    for(let i = 2; i <= Math.sqrt(num); i++){
+       
+         if(num %2 !== 0){
+            console.log("This is a prime number : ", num)
+         }
+         else{
+            console.log("This is not a prime number : ", num)
+         }
+    }
 }
-console.log(lengthOfStr("Bangladesh"));
-console.log(lengthOfStr("Shahariar"))
 
-
+primeNumber(14);
+primeNumber(17);
