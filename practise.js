@@ -101,18 +101,26 @@
 
 // 8. Check if a Number is Prime 
 
-function primeNumber(num){
+// function primeNumber(num){
    
-    for(let i = 2; i <= Math.sqrt(num); i++){
+//     for(let i = 2; i <= Math.sqrt(num); i++){
        
-         if(num %2 !== 0){
-            console.log("This is a prime number : ", num)
-         }
-         else{
-            console.log("This is not a prime number : ", num)
-         }
-    }
+//          if(num %2 !== 0){
+//             console.log("This is a prime number : ", num)
+//          }
+//          else{
+//             console.log("This is not a prime number : ", num)
+//          }
+//     }
+// }
+
+// primeNumber(14);
+// primeNumber(17);
+
+
+// 9.12. Find the First Character of a String
+function character(str){
+    return str[2]
 }
 
-primeNumber(14);
-primeNumber(17);
+console.log(character("HEllo"))
